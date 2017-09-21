@@ -1,0 +1,8 @@
+[repositories]
+local
+
+activator-launcher-local: file:///opt/activator/repository, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+activator-local: file:///opt/activator/repository, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+
+my-ivy-proxy-releases: https://artifactory.dhl.com/sbt-typesafe-ivy/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+my-maven-proxy-releases: https://artifactory.dhl.com/maven-release/
